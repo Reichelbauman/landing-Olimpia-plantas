@@ -84,6 +84,39 @@ ul{
     align-self: center;
 }
 
+.nosotros{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+  color: white;
+  margin-top: 10px;
+  font-size: 1.6rem;
+  text-align: center;
+  background-color: red;
+}
+
+.img_nosotros img{
+    height: 40%;
+}
+
+.vision{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 5%;
+}
+.mision{
+    margin-top: 15px;
+    margin-right: 5%;
+}
+
+.vision img{
+    width: 60px;
+}
+
+.mision img{
+    width: 60px;
+}
+
 .button_olimpia{
     margin-top: 10px;
     background-color: var(--Olimpia-purple);
