@@ -60,6 +60,23 @@ ul{
     align-self: center;
     align-items: center;
 }
+.secction_subHero{
+    display: flex;
+    justify-content: center;
+    background-color: var(--Olimpia-green);
+    margin-top: 10px;
+    margin-left:5% ;
+    width: 90%;
+    height: 150px;
+    border-radius: 40px;
+    align-self: center;
+    align-items: center;
+}
+.secction_subHero .section_left{
+width: 50%;
+border-radius: 40px 0 0 40px;
+}
+
 .button_olimpia{
     margin-top: 10px;
     background-color: var(--Olimpia-purple);
