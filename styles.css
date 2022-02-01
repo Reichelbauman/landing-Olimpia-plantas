@@ -1,0 +1,24 @@
+/*
+1. Posicionamiento
+2. Modelo de caja (box model)
+3. Tipografías
+4. Visuales (shadws,border, etc)
+5. Otros
+*/
+:root{
+    /* Colores */
+    --Olimpia-green: #6ECDB3;
+    --soft-green: #a8ffe8;
+    --Olimpia-purple: #8C7AD2;
+    --soft-purple: #beaeff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+}
