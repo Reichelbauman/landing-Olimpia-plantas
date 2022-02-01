@@ -22,3 +22,25 @@ html{
     font-size: 62.5%;
     font-family: "Montserrat", sans-serif;
 }
+.lineTop{
+    background-color: var(--Olimpia-purple);
+    height: 10px;
+}
+nav {
+    background-color: var(--Olimpia-green);
+    width: 100%;
+    height: 40px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    list-style: none;
+    font-size: 1.6rem;
+}
+.logo_nav{
+    width: 20px;
+    height: 20px;
+}
