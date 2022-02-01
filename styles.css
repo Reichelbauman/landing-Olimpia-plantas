@@ -44,3 +44,45 @@ ul{
     width: 20px;
     height: 20px;
 }
+
+.hero{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(./img/1.jpg);
+    background-repeat: no-repeat;
+    margin-left:5% ;
+    width: 90%;
+    height: 300px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    align-self: center;
+    align-items: center;
+}
+.button_olimpia{
+    margin-top: 10px;
+    background-color: var(--Olimpia-purple);
+    width: 200px;
+    height: 40px;
+    border-radius: 30px;
+    border-style: none;
+    box-shadow: 1px 3px 5px 0px black;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    color: var(--Olimpia-green);
+    font-size: 3.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px 2px black;
+}
+
+.hero_parrafo{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 1px 1px black;
+}
