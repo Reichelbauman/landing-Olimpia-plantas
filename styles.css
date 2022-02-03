@@ -85,15 +85,13 @@ ul{
 }
 
 .nosotros{
-  display: grid;
-  width: 100%;
-  height: auto;
-  grid-template-columns: 1fr 1fr;
-  color: white;
-  margin-top: 10px;
-  font-size: 1.6rem;
-  text-align: center;
-  background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 450px;
+    color: gray;
+    margin-top: 10px;
+    font-size: 1.6rem;
+    text-align: center;
 }
 
 .img_nosotros img{
@@ -112,7 +110,6 @@ ul{
 
 .vision img{
     width: 60px;
-    overflow-x: -100px;
 }
 
 .mision img{
@@ -135,6 +132,15 @@ ul{
 h1{
     color: var(--Olimpia-green);
     font-size: 3.5rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px 2px black;
+}
+
+.productos_titulo{
+    margin: 16px;
+    color: var(--Olimpia-green);
+    font-size: 3rem;
+    font-weight: bold;
     text-align: center;
     text-shadow: 2px 2px 2px 2px black;
 }
