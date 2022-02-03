@@ -87,6 +87,7 @@ ul{
 .nosotros{
   display: grid;
   width: 100%;
+  height: auto;
   grid-template-columns: 1fr 1fr;
   color: white;
   margin-top: 10px;
@@ -111,6 +112,7 @@ ul{
 
 .vision img{
     width: 60px;
+    overflow-x: -100px;
 }
 
 .mision img{
