@@ -154,13 +154,13 @@ h1{
 /* grid galeria*/
 
 .containerGaleria1{
-    width: 90%;
-    height: 500px;
+    width: 100%;
+    height: 600px;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    gap: 1.5%;
+    gap: 1%;
 }
 .imgGrande1{
     width: 100%;
@@ -175,8 +175,8 @@ h1{
 .imgChicaIzqUp{
     width: 100%;
     height: 100%;
-    background-color: blueviolet;
-    border-radius: 0px 90px 0px 90px;
+    background-color: var(--Olimpia-purple);
+    border-radius: 0px 75px 0px 75px;
     grid-column: 3/4;
     grid-row: 1/2;
 }
@@ -184,7 +184,7 @@ h1{
     width: 100%;
     height: 100%;
     background-color: var(--Olimpia-purple);
-    border-radius: 90px 0px 90px 0px;
+    border-radius: 75px 0px 75px 0px;
     grid-column: 4/5;
     grid-row: 1/2;
 }
@@ -192,7 +192,7 @@ h1{
     width: 100%;
     height: 100%;
     background-color: red;
-    border-radius: 90px 0px 90px 0px;
+    border-radius: 75px 0px 75px 0px;
     grid-column: 3/4;
     grid-row: 2/3;
 }
@@ -200,7 +200,7 @@ h1{
     width: 100%;
     height: 100%;
     background-color: yellowgreen;
-    border-radius: 0px 90px 0px 90px;
+    border-radius: 0px 75px 0px 75px;
     grid-column: 4/5;
     grid-row: 2/3;
 }
@@ -211,13 +211,13 @@ h1{
     height: 100%;
     background-color: rgb(255, 238, 0);
     grid-column: 3/6;
-    grid-row: 3/6;
+    grid-row: 4/6;
     border-radius: 125px 0px 125px 0px;
 }
 .imgChicaIzqUp1{
     width: 100%;
     height: 100%;
-    border-radius: 0px 90px 0px 90px;
+    border-radius: 0px 75px 0px 75px;
     grid-column: 1/2;
     grid-row: 4/5;
 }
@@ -225,7 +225,7 @@ h1{
     width: 100%;
     height: 100%;
     background-color: var(--Olimpia-purple);
-    border-radius: 90px 0px 90px 0px;
+    border-radius: 75px 0px 75px 0px;
     grid-column: 2/3;
     grid-row: 4/5;
 }
@@ -233,7 +233,7 @@ h1{
     width: 100%;
     height: 100%;
     background-color: var(--Olimpia-purple);
-    border-radius: 90px 0px 90px 0px;
+    border-radius: 75px 0px 75px 0px;
     grid-column: 1/2;
     grid-row: 5/6;
 }
@@ -241,7 +241,7 @@ h1{
     width: 100%;
     height: 100%;
     background-color: yellowgreen;
-    border-radius: 0px 90px 0px 90px;
+    border-radius: 0px 75px 0px 75px;
     grid-column: 2/3;
     grid-row: 5/6;
 }
