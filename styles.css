@@ -40,6 +40,7 @@ ul{
     list-style: none;
     font-size: 1.6rem;
 }
+
 .logo_nav{
     width: 75px;
     margin-top: 0.5rem;
@@ -143,6 +144,7 @@ h1{
 
 .mision img{
     width: 4.5rem;
+    margin-top: 2rem;
 }
 
 .button_olimpia_hero{
@@ -355,4 +357,36 @@ h1{
     color: white;
     font-weight:600;
     font-size: 1.2rem;
+}
+
+/*     area footer  */
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--Olimpia-green);
+}
+
+.imgFooter{
+    padding: 1rem;
+    width: 11rem;
+}
+
+.footer_text{
+    font-size: 1.3rem;
+    align-self: center;
+    font-weight: 700;
+    color: white;
+}
+
+.footer_facebook{
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+}
+
+.footer_insta{
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5rem;
+
 }
